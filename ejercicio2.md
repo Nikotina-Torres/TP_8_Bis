@@ -1,7 +1,7 @@
 ### 2) Dibujar un diagrama de flujo de datos que permita cargar y determinar e imprimir la posición del
 último elemento negativo dentro de un vector X con datos numéricos enteros ingresados por el
 usuario, con entre 8 y 40 elementos.
-#Diagrama:
+# Diagrama:
 ```mermaid
 flowchart TD
 	1(veces = 'Cuantos elementos desea ingresar?') --> 2{veces < 8? o veces > 40?}
@@ -16,7 +16,7 @@ flowchart TD
     8 --> 3
     3 --> |No| 9(print: 'posicion_negativo')
 ```
-#Grafo, Caminos, Cálculos:
+# Grafo, Caminos, Cálculos:
 ```mermaid
 flowchart TD
 	1((1)) --> |i| 2((2))
